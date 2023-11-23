@@ -1,2 +1,11 @@
-.vscode
-__pycache__
+.vscode/
+__pycache__/
+
+# 忽略所有pycaret下所有文件和目录
+**/pycaret/**
+# 不忽略所有pycaret下的目录
+!**/pycaret/**/
+
+# 不忽略包含以下后缀的文件
+!*.py
+!*.ipynb
