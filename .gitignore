@@ -1,5 +1,6 @@
 .vscode/
 __pycache__/
+.ipynb_checkpoints/
 
 # 忽略所有pycaret下所有文件和目录
 **/pycaret/**
